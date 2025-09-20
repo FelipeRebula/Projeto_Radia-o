@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corpo Interativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <!-- Corpo -->
+    <img src="image/corpo_seco.png" alt="Corpo humano" class="corpo">
+
+    <!-- Órgãos -->
+    <div class="orgao-wrapper" style="top:7.5%; left:48.1%; width:46%;">
+      <img src="image/cerebro.png" class="orgao" 
+           data-nome="Cérebro"
+           data-desc="Causas e fatores de risco:
+
+A maioria não tem causa definida; muitas vezes surge de mutações espontâneas nas células do cérebro.
+
+Exposição à radiação: por tratamentos médicos anteriores ou radiações ambientais.
+
+Fatores genéticos: algumas síndromes hereditárias aumentam o risco (ex.: Li-Fraumeni, neurofibromatose).
+
+Idade: certos tipos são mais comuns em crianças (meduloblastoma) e outros em adultos (glioblastoma).">
+    </div>
+
+    <div class="orgao-wrapper" style="top:33.2%; left:53%; width:64%;">
+      <img src="image/pulmoes.png" class="orgao" 
+           data-nome="Pulmões"
+           data-desc="Causa principal: Tabagismo (cigarro é responsável por cerca de 85–90% dos casos).    
+Outros fatores: Exposição a radônio, amianto, poluição do ar, histórico familiar.">
+    </div>
+
+    <div class="orgao-wrapper" style="top:43%; left:45%; width:47%;">
+      <img src="image/figado.png" class="orgao" 
+           data-nome="Fígado"
+           data-desc="Principais causas:
+
+Infecção crônica por hepatite B ou C.
+
+Cirrose (álcool ou doenças metabólicas).
+
+Exposição a aflatoxinas (em alimentos contaminados por fungos).">
+    </div>
+
+    <div class="orgao-wrapper" style="top:43.5%; left:54%; width:50%;">
+      <img src="image/estomago.png" class="orgao" 
+           data-nome="Estômago"
+           data-desc="Fatores de risco:
+
+Infecção crônica por Helicobacter pylori.
+
+Dieta rica em alimentos defumados, salgados ou conservados.
+
+Tabagismo.
+
+História familiar.">
+    </div>
+
+    <div class="orgao-wrapper" style="top:49%; left:50%; width:29%;">
+      <img src="image/pancreas.png" class="orgao" 
+           data-nome="Pâncreas"
+           data-desc="Causas e fatores de risco:
+
+Tabagismo: principal fator evitável.
+
+Idade: risco aumenta após 60 anos.
+
+Histórico familiar e genética: mutações em BRCA2, p16/CDKN2A e síndromes como Lynch aumentam risco.
+
+Diabetes tipo 2 e obesidade: associados a maior risco.
+
+Pancreatite crônica: inflamação prolongada do pâncreas pode contribuir.">
+    </div>
+
+    <div class="orgao-wrapper" style="top:55%; left:45.5%; width:55%;">
+      <img src="image/instestino_grosso.png" class="orgao" 
+           data-nome="Intestino Grosso"
+           data-desc="
+           Dieta pobre em fibras e rica em carnes processadas.
+
+Sedentarismo e obesidade.
+
+História familiar ou síndromes genéticas (ex.: polipose adenomatosa familiar).
+
+Inflamações intestinais crônicas (colite ulcerativa, doença de Crohn).">
+    </div>
+
+    <div class="orgao-wrapper" style="top:63.5%; left:50%; width:32%;">
+      <img src="image/pinto.png" class="orgao" 
+           data-nome="Pênis"
+           data-desc="Causas e fatores de risco
+
+Infecção pelo HPV (Papilomavírus Humano):
+
+Tipos 16 e 18 são os mais associados.
+
+
+
+Falta de higiene peniana:
+
+Acúmulo de esmegma (secreção natural) pode aumentar inflamação crônica.
+
+
+
+Fimose não tratada:
+
+Dificulta a higiene e aumenta o risco de inflamação crônica.
+
+
+
+Tabagismo:
+
+Fumantes têm risco maior.
+
+
+
+Idade:
+
+Mais comum em homens acima de 50 anos.
+
+
+
+Histórico familiar ou pré-câncer:
+
+Lesões pré-malignas como líquen escleroso podem evoluir para câncer.">
+    </div>
+  </main>
+
+  <!-- Overlay escuro -->
+  <div id="overlay"></div>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <button class="close-btn" id="close-popup">✖</button>
+    <h2 id="popup-title"></h2>
+    <p id="popup-desc"></p>
+  </div>
+  <br><br><br>
+  <div class="creditos">
+    <h1>Creditos</h1>
+    <h2>Site</h2>
+    <p>Felipe Vitorino</p>
+    <h2>Gupo</h2>
+    <p>Felipe Vitorino</p>
+    <p>Guilherme Inacio</p>
+    <p>Renato Rosa</p>
+    <p>Enzo Biazoto</p>
+    <p>Carlos</p>
+    <p>Gabriel Dib</p>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
